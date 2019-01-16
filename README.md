@@ -4,6 +4,8 @@ A refrigerator is essential for each consumer. Consumers are always concerned ab
 ##
 ## Data Set
 The data set ware drawn from the July, 1992 issue of Consumer Reports entitled “Refrigerators: A Comprehensive Guide to the Big White Box.” This article contains several status and features of refrigerators, including the price of each refrigerator. In this data set, 37 of the refrigerators are randomly selected as the training set. 
-
+<p align="center">
+  <img src="https://github.com/Israfiliya/RFPrice/blob/master/pasted%20image%200.png">
+</p>
 As the data description states, the data has 37 observations and 8 columns. Among the 8 variables, BRANDNAM is a categorical variable, and rest of them are numeric variables. The meaning of each variable was shown in the table 1.01. We will concentrate on  the following different characteristics, including the whole size of the refrigerator in cubic feet (RSIZE), the size of the freezer compartment in cubic feet (FSIZE), the average amount of money spent per year to operate the refrigerator (ECOST, energy cost), the number of shelves in the refrigerator and freezer doors (SHELVES), and the number of features (FEATURES). 
 By overseeing the data set, we are wishing to build a multiple regression model to predict refrigerator price. The price (Price) is modeled as a function of energy cost (ECOST), the size of the refrigerator (RSIZE), the size of the freezer compartment (FSIZE), the number of shelves (SHELVES), shelf space (S_SQ_FT), the number of features (FEATURES) and the brand name (BRANDNAM).
