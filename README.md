@@ -52,3 +52,6 @@ By analyzing the global F test, confidence intervals for each parameters, Root M
 * Based on t-test with significant level  (Alpha)equals .05, the p-values for ECOST, FSIZE, SHELVES, S_SQ_FT, FEATURES, Amana, frigidaire, gibson, kelvintr, kitchen aid, magic chef, montgomery ward, Sears Kenmore, and Tappan  are less than .05 indicating sufficient evidence for predicting the refrigerator price.  Each i parameter  represents the mean change in the response variable (y) for every 1-unit increase in the corresponding  xiwhen all the other x’s are held fixed.  For example, the price of the fridge will increase by 31.562 each 1 shelf that a refrigerator gains.
 * A 95% confidence interval for shelves is (15.18,47.95).  This means that we are 95% confident that the price of a refrigerator increases between 15.18 and 47.95 for every 1 shelf that is added.
 
+## Assumptions Checking
+Serveral graphical tools and statistical tests are applied to check whether the key assumptions of linear regression is met or not.
+
