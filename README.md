@@ -19,7 +19,7 @@ By comparing the Adjusted Rsq, Cp and BIC, we conclude that 15 variables should 
 
 #### The final model equation:
 > Price=-404.26143-8.53403*ECOST+197.97874*FSIZE+31.56212*SHELVES+18.06407*SSQ FT+10.12353*FEATURES
-> + following value corresponding to the brand name
+> Also plus following value corresponding to the brand name
 
 |Value |Brand Name
 |------|----------|
@@ -44,3 +44,11 @@ Assume we have a refrigerator with the following status:
 Then the predict price of this refrigerator is around:
 > -404.26143-8.5340368+197.978745.1+31.562122+18.0640723.4+10.123533+148.31460 
 > =689.624772 dollors
+
+## Model Adequacy
+By analyzing the global F test, confidence intervals for each parameters, Root MSE and CV, we have the following results:
+* Global F test (P-value < 0.001) indicates that the model is significant for predicting the price of refrigerators based on a group of independent variables in the model.
+* The valueof R-Square is .97 which means approximately 97% of the variation of invoice is explained by the independent variables.  Given Root MSE was 25.67, approximately 95% of the sampled Refrigerator price values fall within two standard deviations (51.34) of their respective predicted values.
+* Based on t-test with significant level  (Alpha)equals .05, the p-values for ECOST, FSIZE, SHELVES, S_SQ_FT, FEATURES, Amana, frigidaire, gibson, kelvintr, kitchen aid, magic chef, montgomery ward, Sears Kenmore, and Tappan  are less than .05 indicating sufficient evidence for predicting the refrigerator price.  Each i parameter  represents the mean change in the response variable (y) for every 1-unit increase in the corresponding  xiwhen all the other x’s are held fixed.  For example, the price of the fridge will increase by 31.562 each 1 shelf that a refrigerator gains.
+* A 95% confidence interval for shelves is (15.18,47.95).  This means that we are 95% confident that the price of a refrigerator increases between 15.18 and 47.95 for every 1 shelf that is added.
+
