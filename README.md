@@ -58,3 +58,7 @@ Serveral graphical tools and statistical tests are applied to check whether the 
   <img src="https://github.com/Israfiliya/RFPrice/blob/master/rs_qq-regression.jpg">
 </p>
 According to Figure above, which is the residuals plotted against the predicted values, there is no pattern or trends.  If there are any patterns such as the “cone” or “sphere” shapes, this indicates the lack of model fit and unequal variances. Also the Q-Q plot shows a linear trend with a slight deviation at the tail, but since the normality assumption is least restrictive among all the assumptions, we believe in our case, the normality assumption is satisfied. The Durbin-Watson Test statistic is 2.62007, which should be considered close to 2, so the residuals are uncorrelated and the independent error assumption is meeted.
+<p align="center">
+  <img src="https://github.com/Israfiliya/RFPrice/blob/master/df_ck_lv-regression.jpg">
+</p>
+Diffit Measure indicate that No.14 and No.18 has a value greater than 2sqrt(p/n), so there is a potential that these two points are influential. From the middle figure, we can knowing that all the Cook’s D value is less than 1, which suggests all the points are fluential. The last Leverage Measurements chart (last figure) shows that there maybe 4 points are influential. Overall, we can assume that there is little influential points.
