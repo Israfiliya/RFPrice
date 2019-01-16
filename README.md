@@ -16,5 +16,31 @@ The Stepwise Regression is used to determine the independent variable used to ad
   <img src="https://github.com/Israfiliya/RFPrice/blob/master/vs-regression.jpg">
 </p>
 By comparing the Adjusted Rsq, Cp and BIC, we conclude that 15 variables should be included in the model. Among these 15 variables, there are 5 numeric variables (ECOST, FSIZE, SHELVES, S_SQ_FT, FEATURES ) and 10 brand names (Amana, Frigidaire, Gibson, Kelvintr, Kitchen Aid, Magic Chef, Montgomery Ward, RCA, Sears Kenmore, Tappan).
+
 #### The final model equation:
-Price=-404.26143-8.53403*ECOST+197.97874*FSIZE+31.56212*SHELVES+18.06407*SSQ FT+10.12353*FEATURES
+> Price=-404.26143-8.53403*ECOST+197.97874*FSIZE+31.56212*SHELVES+18.06407*SSQ FT+10.12353*FEATURES
+> + following value corresponding to the brand name
+
+|Value |Brand Name
+|------|----------|
+|126.70162 |Amana
+|190.60726 |Frigidaire
+|129.05084 |Gibson
+|169.50441 |Kelvintr
+|98.17029 |Kitchen Aid
+|-85.42586 |Magic Chef
+|-124.31307 |Montgomery Ward 
+|42.48798 |RCA
+|181.63233 |Sears Kenmore 
+|148.31460 | Tappan|
+
+###### A quick example
+Assume we have a refrigerator with the following status:
+
+|ECOST|FSIZE|SHELEVES|S_SQ_FT|FEATURES|BRANDNAME|
+|-----|-----|--------|-------|--------|---------|
+|68|5.1|2|23.4|3|Tappan|
+
+Then the predict price of this refrigerator is around:
+> -404.26143-8.5340368+197.978745.1+31.562122+18.0640723.4+10.123533+148.31460 
+> =689.624772 dollors
