@@ -9,3 +9,8 @@ The data set ware drawn from the July, 1992 issue of Consumer Reports entitled â
 </p>
 As the data description states, the data has 37 observations and 8 columns. Among the 8 variables, BRANDNAM is a categorical variable, and rest of them are numeric variables. The meaning of each variable was shown in the table 1.01. We will concentrate on  the following different characteristics, including the whole size of the refrigerator in cubic feet (RSIZE), the size of the freezer compartment in cubic feet (FSIZE), the average amount of money spent per year to operate the refrigerator (ECOST, energy cost), the number of shelves in the refrigerator and freezer doors (SHELVES), and the number of features (FEATURES). 
 By overseeing the data set, we are wishing to build a multiple regression model to predict refrigerator price. The price (Price) is modeled as a function of energy cost (ECOST), the size of the refrigerator (RSIZE), the size of the freezer compartment (FSIZE), the number of shelves (SHELVES), shelf space (S_SQ_FT), the number of features (FEATURES) and the brand name (BRANDNAM).
+
+## Model Building
+The Stepwise Regression is used to determine the independent variable used to add into the model. we will use Adjusted Rsq, Cp and BIC as evaluation principal.
+
+By comparing the Adjusted Rsq, Cp and BIC, we conclude that 15 variables should be included in the model.
