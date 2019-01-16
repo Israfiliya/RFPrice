@@ -12,5 +12,7 @@ By overseeing the data set, we are wishing to build a multiple regression model 
 
 ## Model Building
 The Stepwise Regression is used to determine the independent variable used to add into the model. we will use Adjusted Rsq, Cp and BIC as evaluation principal.
-
+<p align="center">
+  <img src="https://github.com/Israfiliya/RFPrice/blob/master/vs-regression.jpg">
+</p>
 By comparing the Adjusted Rsq, Cp and BIC, we conclude that 15 variables should be included in the model.
