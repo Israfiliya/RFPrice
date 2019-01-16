@@ -62,3 +62,6 @@ According to Figure above, which is the residuals plotted against the predicted 
   <img src="https://github.com/Israfiliya/RFPrice/blob/master/df_ck_lv-regression.jpg">
 </p>
 Diffit Measure indicate that No.14 and No.18 has a value greater than 2sqrt(p/n), so there is a potential that these two points are influential. From the middle figure, we can knowing that all the Cook’s D value is less than 1, which suggests all the points are fluential. The last Leverage Measurements chart (last figure) shows that there maybe 4 points are influential. Overall, we can assume that there is little influential points.
+
+## Conclusion
+In our analysis we sought to determine which refrigerator characteristics were predictive of high refrigerator prices through the use of a stepwise regression model.  Our analysis has shown that energy cost, freezer size, number of shelves, amount of shelf space, number of features, and 9 of the brand names correlate strongly with refrigerator cost and are predictive characteristics. The rest of the brand names and the size of the refrigerator do not correlate strongly with refrigerator price and are not predictive characteristics.
