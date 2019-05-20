@@ -1,5 +1,5 @@
 # RFPrice
-## Introction
+## Introduction
 A refrigerator is essential for each consumer. Consumers are always concerned about price and so naturally the price of a refrigerator would be very important.  This importance makes it a meaningful subject of study.  However, consumers also want larger refrigerators with lower energy cost and more features.  Our mission on this quest was to figure what characteristics, brands, and manufacturers would affect the price of refrigerators.  We believe that our model provides some insight for consumers to decide on their dream refrigerator.
 ##
 ## Data Set
